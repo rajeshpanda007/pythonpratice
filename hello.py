@@ -11,7 +11,7 @@ while len(myname) == 0  :
     print('Please type your name')
     myname = input()
     print(myname)
-print('Hello ' + myname)
+print('Hello: ' + myname)
 print('The length of your name is ' + str(len(myname)))
 print('What is your age ?')
 myage = str.strip(input())
