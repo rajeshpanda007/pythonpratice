@@ -16,7 +16,7 @@ print('The length of your name is ' + str(len(myname)))
 print('What is your age ?')
 myage = str.strip(input())
 while (str.isnumeric(str(myage))==False):
-    print("Please provide the age in number/s")
+    print("Please provide the age in numbers")
     myage = str.strip(input())
      
 print('You were born in ' + str(2017-int(myage)))
